@@ -154,7 +154,8 @@ function portfolioItemDetails(portfolioItem) {
 // Email JS
 (function () {
   // https://dashboard.emailjs.com/admin/account
-  emailjs.init('1LsCcPyoJuh3rVgNc');
+  // emailjs.init('1LsCcPyoJuh3rVgNc');
+  emailjs.init('RQaUF7QU9IcqCn5EU');
 })();
 
 window.onload = function () {
@@ -163,7 +164,7 @@ window.onload = function () {
     // generate a five digit number for the contact_number variable
     this.contact_number.value = Math.random() * 100000 | 0;
     // these IDs from the previous steps
-    emailjs.sendForm('service_p9u31ze', 'template_ajad98f', this)
+    emailjs.sendForm('service_e98tmtz', 'template_5frizz9', this)
       .then(function () {
         console.log('SUCCESS!');
         alert('전송이 완료되었습니다');

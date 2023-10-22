@@ -16,6 +16,10 @@
   --text-black-700: #504e70;
 }
 
+.fa-arrow-right:before {
+  font-family: "Font Awesome 5 Free";
+}
+
 body.dark {
   --bg-black-900: #151515;
   --bg-black-100: #222;
